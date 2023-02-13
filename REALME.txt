@@ -72,11 +72,11 @@
 
 		   将本地库上传到github：
 	
-		   		git remote add origin https://github.com/huahua-88/git-demo.git
+		   		git remote add github https://github.com/huahua-88/git-demo.git
                 	     origin是远程库的名字 后面的是仓库的地址
-		   		git branch -M main
+		   		git branch -M master
                		 修改分支的名字为main(这一步不是必须的)
-		   		git push -u origin main
+		   		git push -u github master
 			   		 将代码上传到服务器上。(这里的origin和上面的远程库的名字需要对应，这里的main也要和上面的修改分支的名字对应)
 
 		   将本地库上传gitee：
