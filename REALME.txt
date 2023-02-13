@@ -13,7 +13,7 @@
 
      刚刚添加进项目的状态属于未跟踪状态 Untracked:
         未跟踪 --->暂存(绿色是暂存状态)
-           git add <filename> 将文件切换到暂存状态
+         git add <filename> 将文件切换到暂存状态
 		   git add * 将所有的已修改或未跟踪的文件暂存
 		暂存 ----> 未修改
 		   git commit -m "xxx" 将暂存的文件存储到仓库中 (m指message xxx指提交的信息)
